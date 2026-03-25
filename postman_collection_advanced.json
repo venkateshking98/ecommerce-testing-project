@@ -1,0 +1,36 @@
+{
+  "info": {
+    "name": "QE API Testing - ReqRes",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Users",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://reqres.in/api/users?page=2"
+        }
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"email\":\"eve.holt@reqres.in\",\"password\":\"cityslicka\"}"
+        },
+        "url": {
+          "raw": "https://reqres.in/api/login"
+        }
+      }
+    }
+  ]
+}
