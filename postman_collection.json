@@ -1,0 +1,52 @@
+{
+  "info": {
+    "name": "Ecommerce API Testing",
+    "_postman_id": "12345",
+    "description": "Sample Postman collection for QE project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login API",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"username\":\"test\",\"password\":\"1234\"}"
+        },
+        "url": {
+          "raw": "https://example.com/api/login",
+          "protocol": "https",
+          "host": [
+            "example",
+            "com"
+          ],
+          "path": [
+            "api",
+            "login"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://example.com/api/products",
+          "protocol": "https",
+          "host": [
+            "example",
+            "com"
+          ],
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      }
+    }
+  ]
+}
