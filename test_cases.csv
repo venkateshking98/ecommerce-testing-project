@@ -1,0 +1,6 @@
+TestCaseID,Module,Title,Steps,ExpectedResult,Status
+TC_001,Login,Valid login,Enter valid credentials and login,User logs in successfully,Pass
+TC_002,Login,Invalid password,Enter wrong password,Error message displayed,Pass
+TC_003,Search,Search product,Search for a product,Relevant results shown,Pass
+TC_004,Cart,Add to cart,Add product to cart,Product added to cart,Pass
+TC_005,Checkout,Place order,Complete checkout process,Order placed successfully,Pass
