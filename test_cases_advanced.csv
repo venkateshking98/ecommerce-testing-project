@@ -1,0 +1,16 @@
+TestCaseID,Module,Title,Steps,ExpectedResult,Status
+TC_001,Login,Valid login,Enter valid credentials,Login successful,Pass
+TC_002,Login,Invalid password,Enter wrong password,Error message,Pass
+TC_003,Login,Empty fields,Submit empty form,Validation shown,Pass
+TC_004,Search,Valid search,Search product,Results displayed,Pass
+TC_005,Search,No results,Search random text,No results msg,Pass
+TC_006,Cart,Add item,Add product,Item added,Pass
+TC_007,Cart,Remove item,Remove product,Item removed,Pass
+TC_008,Cart,Update quantity,Change qty,Qty updated,Pass
+TC_009,Checkout,Valid checkout,Place order,Order success,Pass
+TC_010,Checkout,Empty cart,Checkout without items,Error shown,Pass
+TC_011,API,Get users,GET /users,200 OK,Pass
+TC_012,API,Invalid endpoint,GET wrong URL,404 error,Pass
+TC_013,API,POST login,Send login req,Token returned,Pass
+TC_014,API,Invalid JSON,Send bad data,400 error,Pass
+TC_015,Performance,Load basic,Multiple requests,Stable response,Pass
