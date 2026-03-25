@@ -1,0 +1,13 @@
+
+Bug ID: BUG_001
+Title: Login fails with valid credentials
+Steps:
+1. Go to login page
+2. Enter valid username/password
+3. Click login
+
+Expected: User should login
+Actual: Error message shown
+
+Severity: High
+Priority: High
